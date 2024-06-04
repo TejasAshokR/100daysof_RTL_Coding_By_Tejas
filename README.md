@@ -1,1 +1,2 @@
 # 100daysof_RTL_Coding_By_Tejas
+Hi👋, I'm Tejas, and I'm currently immersing myself in the world of VLSI🎯, focusing on RTL design using Verilog. My goal is to learn RTL within 1️⃣0️⃣0️⃣ days, and I rely on Intel Quartus prime🚀 for synthesizing and simulating RTL codes👨🏼‍💻. This powerful tool💪🏼 allows me to efficiently develop complex digital circuits, including FPGAs and ASICs. I'm excited about my journey and the potential it holds for equipping me with valuable skills that I can apply to real-world problems in the future.
