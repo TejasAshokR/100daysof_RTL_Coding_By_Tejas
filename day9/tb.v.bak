@@ -1,0 +1,15 @@
+`timescale 1ns/1ps
+module tb;
+reg [3:0]a,b;
+reg cin;
+wire [3:0]sum;
+wire carry;
+
+ripple_carry_adder dut(a,b,cin,sum,carry);
+initial
+begin
+a=4'b0101; b=4'b1010; c=0;#10;
+$display("a=%b b=%b c=%b sum=%b carry=%b",a,b,cin,sum,carry);
+#10 $finish;
+end
+endmodule
