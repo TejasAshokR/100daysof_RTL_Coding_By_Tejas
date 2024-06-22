@@ -1,0 +1,15 @@
+module test_BENCH;
+reg reset,clk,d;
+wire q,q0;
+dflip_flop dut(.reset(reset),.clk(clk),.d(d),.q(q),.q0(q0));
+initial
+begin
+q=1'b0;
+q0=1'b1;
+end
+always begin
+#10 d=0;
+#10 d=1;
+end
+endmodule
+
